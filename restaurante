@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Casa Argel - Restaurante</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="inicio">
+        <div class="header-content">
+            <h1>La Casa Argel</h1>
+            <p class="tagline">Tradición y Sabor en Cada Bocado</p>
+        </div>
+    </header>
+    <nav class="navbar">
+        <ul class="nav-menu">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#presentacion">Nosotros</a></li>
+            <li><a href="#menu">Menú</a></li>
+            <li><a href="#horarios">Horarios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <section id="presentacion" class="presentacion">
+        <div class="presentacion-content">
+            <h2>Bienvenidos a La Casa Argel</h2>
+            <p>Somos un restaurante familiar dedicado a ofrecer los mejores platillos, preparados con ingredientes frescos y el amor de una familia que ha pasado recetas de generación en generación.</p>
+            <p>Nuestro compromiso es brindarte una experiencia culinaria única, donde cada plato cuenta una historia y cada visita se convierte en un recuerdo memorable.</p>
+        </div>
+    </section>
+    <section id="menu" class="menu-section">
+        <h2>Nuestro Menú</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <div class="menu-image plato1"></div>
+                <h3>Paella Valenciana</h3>
+                <p>Arroz tradicional con mariscos frescos, pollo y especias artesanales.</p>
+                <span class="price">$35.000</span>
+            </div>
+            <div class="menu-item">
+                <div class="menu-image plato2"></div>
+                <h3>Filete de Res</h3>
+                <p>Corte premium acompañado de verduras asadas y salsa de champiñones.</p>
+                <span class="price">$50.000</span>
+            </div>
+            <div class="menu-item">
+                <div class="menu-image plato3"></div>
+                <h3>Pasta Carbonara</h3>
+                <p>Pasta italiana casera con tocino, huevo y queso parmesano.</p>
+                <span class="price">$22.000</span>
+            </div>
+            <div class="menu-item">
+                <div class="menu-image plato4"></div>
+                <h3>Enchiladas Verdes</h3>
+                <p>Tres enchiladas con pollo, bañadas en salsa verde y crema.</p>
+                <span class="price">$20.000</span>
+            </div>
+            <div class="menu-item">
+                <div class="menu-image plato5"></div>
+                <h3>Salmón a la Plancha</h3>
+                <p>Salmón fresco con limón, hierbas y acompañamientos mixtos.</p>
+                <span class="price">$32.000</span>
+            </div>
+            <div class="menu-item">
+                <div class="menu-image plato6"></div>
+                <h3>Tacos al Pastor</h3>
+                <p>Tacos tradicionales con carne adobada, piña y cilantro.</p>
+                <span class="price">$15.000</span>
+            </div>
+        </div>
+    </section>
+    <section id="horarios" class="horarios-section">
+        <h2>Nuestros Horarios</h2>
+        <div class="horarios-content">
+            <div class="horario-item">
+                <h3>Lunes a Jueves</h3>
+                <p>12:00 PM - 10:00 PM</p>
+            </div>
+            <div class="horario-item">
+                <h3>Viernes y Sábado</h3>
+                <p>12:00 PM - 11:00 PM</p>
+            </div>
+            <div class="horario-item">
+                <h3>Domingo</h3>
+                <p>11:00 AM - 9:00 PM</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto-section">
+        <h2>Contáctanos</h2>
+        <div class="contacto-content">
+            <div class="contacto-info">
+                <div class="info-item">
+                    <h3>📍 Dirección</h3>
+                    <p>trans 57 #89-46</p>
+                </div>
+                <div class="info-item">
+                    <h3>📞 Teléfono</h3>
+                    <p>(315) 431-3227</p>
+                </div>
+                <div class="info-item">
+                    <h3>✉️ Correo</h3>
+                    <p>contacto@casargel.com</p>
+                </div>
+            </div>
+            <form class="contacto-form">
+                <input type="text" placeholder="Tu Nombre" required>
+                <input type="email" placeholder="Tu Correo" required>
+                <textarea placeholder="Tu Mensaje" rows="5" required></textarea>
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <h3>La Familia Alger</h3>
+            <p>Donde la familia se reúne y el sabor perdura</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>  
+            <p class="copyright">© 2024 La Familia Alger. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
